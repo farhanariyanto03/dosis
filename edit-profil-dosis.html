@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from demo.dashboardpack.com/architectui-html-pro/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Feb 2021 08:01:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Analytics Dashboard - This is an example dashboard created using build-in elements and components.</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+<link href="main.d810cf0ae7f39f28f336.css" rel="stylesheet"></head>
+
+<body>
+    <div class="app-container app-theme-white body-tabs-shadow fixed-header fixed-sidebar">
+        <div class="app-header header-shadow">
+            <div class="app-header__logo">
+                <div class="header__panel">
+                    <div>
+                        <button type="button" class="text-left hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="ml-auto">
+                    <div class="logo-src"></div>
+                </div>
+            </div>
+            <div class="app-header__mobile-menu">
+                <div>
+                    <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="app-header__menu">
+                <span>
+                    <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                        <span class="btn-icon-wrapper">
+                            <i class="fa fa-ellipsis-v fa-w-6"></i>
+                        </span>
+                    </button>
+                </span>
+            </div>    
+            <div class="app-header__content">
+                <div class="app-header-right">       
+                </div>
+                <div class="app-header-right">
+                    <div class="search-wrapper">
+                        <div class="input-holder">
+                            <input type="text" class="search-input" placeholder="ketik untuk mencari">
+                            <button class="search-icon"><span></span></button>
+                        </div>
+                        <button class="close"></button>
+                    </div>
+                    <div class="header-dots">
+                        <div class="dropdown">
+                            <button type="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="p-0 mr-2 btn btn-link">
+                        </div>
+                        <div class="dropdown">
+                            <button type="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown"
+                                class="p-0 mr-2 btn btn-link">
+                                <span class="icon-wrapper icon-wrapper-alt rounded-circle">
+                                    <span class="icon-wrapper-bg bg-danger"></span>
+                                    <i class="icon text-danger icon-anim-pulse ion-android-notifications"></i>
+                                    <span class="badge badge-dot badge-dot-sm badge-danger">Notifikasi</span>
+                                </span>
+                            </button>
+                            <div tabindex="-1" role="menu" aria-hidden="true"
+                                class="dropdown-menu-xl rm-pointers dropdown-menu dropdown-menu-right">
+                                <div class="dropdown-menu-header mb-0">
+                                    <div class="dropdown-menu-header-inner bg-deep-blue">
+                                        <div class="menu-header-image opacity-1" style="background-image: url('assets/images/dropdown-header/city3.jpg');"></div>
+                                        <div class="menu-header-content text-dark">
+                                            <h5 class="menu-header-title">Notifikasi</h5>
+                                            <h6 class="menu-header-subtitle">Anda menerima <b>20</b> notifikasi baru</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="tabs-animated-shadow tabs-animated nav nav-justified tabs-shadow-bordered p-3">
+                                    <li class="nav-item">
+                                        <a role="tab" class="nav-link active" data-toggle="tab" href="#tab-messages-header">
+                                            <span>Galang dana</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a role="tab" class="nav-link" data-toggle="tab" href="#tab-events-header">
+                                            <span>Donasi</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a role="tab" class="nav-link" data-toggle="tab" href="#tab-errors-header">
+                                            <span>Komentar</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="tab-messages-header" role="tabpanel">
+                                        <div class="scroll-area-sm">
+                                            <div class="scrollbar-container">
+                                                <div class="p-3">
+                                                    <div class="pt-2 pb-0 card-body">
+                                                        <h6 class="text-muted text-uppercase font-size-md opacity-9 mb-2 font-weight-normal">Notifikasi</h6>
+                                                        <ul class="rm-list-borders rm-list-borders-scroll list-group list-group-flush">
+                                                            <li class="list-group-item">
+                                                                <div class="widget-content p-0">
+                                                                    <div class="widget-content-wrapper">
+                                                                        <div class="widget-content-left mr-3">
+                                                                            <img width="42" class="rounded-circle" src="assets/images/avatars/14.jpg" alt="">
+                                                                        </div>
+                                                                        <div class="widget-content-left">
+                                                                            <div class="widget"><b>Abdul Hasan</b> Telah melakukan galang dana</div>
+                                                                            <div class="widget-subheading mt-17 opacity-6">
+                                                                                <div>1 jam yang lalu</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                <div class="widget-content p-0">
+                                                                    <div class="widget-content-wrapper">
+                                                                        <div class="widget-content-left mr-3">
+                                                                            <img width="42" class="rounded-circle" src="assets/images/avatars/1.jpg" alt="">
+                                                                        </div>
+                                                                        <div class="widget-content-left">
+                                                                            <div class="widget"><b>Viktor Martin</b> Telah melakukan galang dana</div>
+                                                                            <div class="widget-subheading mt-17 opacity-6">
+                                                                                <div>30 Menit yang lalu</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="tab-events-header" role="tabpanel">
+                                        <div class="scroll-area-sm">
+                                            <div class="scrollbar-container">
+                                                <div class="p-3">
+                                                    <div class="pt-2 pb-0 card-body">
+                                                        <h6 class="text-muted text-uppercase font-size-md opacity-9 mb-2 font-weight-normal">Notifikasi</h6>
+                                                        <ul class="rm-list-borders rm-list-borders-scroll list-group list-group-flush">
+                                                            <li class="list-group-item">
+                                                                <div class="widget-content p-0">
+                                                                    <div class="widget-content-wrapper">
+                                                                        <div class="widget-content-left mr-3">
+                                                                            <img width="42" class="rounded-circle" src="assets/images/avatars/14.jpg" alt="">
+                                                                        </div>
+                                                                        <div class="widget-content-left">
+                                                                            <div class="widget"><b>Abdul Hasan</b> Telah melakukan donasi ke <b>Suharji</b> </div>
+                                                                            <div class="widget-subheading mt-17 opacity-6">
+                                                                                <div>1 jam yang lalu</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                <div class="widget-content p-0">
+                                                                    <div class="widget-content-wrapper">
+                                                                        <div class="widget-content-left mr-3">
+                                                                            <img width="42" class="rounded-circle" src="assets/images/avatars/16.jpg" alt="">
+                                                                        </div>
+                                                                        <div class="widget-content-left">
+                                                                            <div class="widget"><b>Farhan</b> Telah melakukan donasi ke <b>Ariyanto</b> </div>
+                                                                            <div class="widget-subheading mt-17 opacity-6">
+                                                                                <div>30 Menit yang lalu</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="tab-errors-header" role="tabpanel">
+                                        <div class="scroll-area-sm">
+                                            <div class="scrollbar-container">
+                                                <div class="p-3">
+                                                    <div class="pt-2 pb-0 card-body">
+                                                        <h6 class="text-muted text-uppercase font-size-md opacity-9 mb-2 font-weight-normal">Notifikasi</h6>
+                                                        <ul class="rm-list-borders rm-list-borders-scroll list-group list-group-flush">
+                                                            <li class="list-group-item">
+                                                                <div class="widget-content p-0">
+                                                                    <div class="widget-content-wrapper">
+                                                                        <div class="widget-content-left mr-3">
+                                                                            <img width="42" class="rounded-circle" src="assets/images/avatars/15.jpg" alt="">
+                                                                        </div>
+                                                                        <div class="widget-content-left">
+                                                                            <div class="widget"><b>Abdul Hasan</b> Mengomentari postingan <b>Indah</b> </div>
+                                                                            <div class="widget-subheading mt-17 opacity-6">
+                                                                                <div>1 jam yang lalu</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                <div class="widget-content p-0">
+                                                                    <div class="widget-content-wrapper">
+                                                                        <div class="widget-content-left mr-3">
+                                                                            <img width="42" class="rounded-circle" src="assets/images/avatars/1.jpg" alt="">
+                                                                        </div>
+                                                                        <div class="widget-content-left">
+                                                                            <div class="widget"><b>Viktor Martin</b> Telah melakukan galang dana</div>
+                                                                            <div class="widget-subheading mt-17 opacity-6">
+                                                                                <div>30 Menit yang lalu</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-dots">
+                        <div class="dropdown">
+                            <button type="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="p-0 mr-2 btn btn-link">
+                        </div>
+                    </div>
+                    
+                    <div class="header-btn-lg pr-0">
+                        <div class="widget-content p-0">
+                            <div class="widget-content-wrapper">
+                                <div class="widget-content-left">
+                                    <div class="btn-group">
+                                        <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="p-0 btn">
+                                            <img width="42" class="rounded-circle" src="assets/images/avatars/14.jpg" alt="">
+                                            <i class="fa fa-angle-down ml-2 opacity-8"></i>
+                                        </a>
+                                        <div tabindex="-1" role="menu" aria-hidden="true" class="rm-pointers dropdown-menu-lg dropdown-menu dropdown-menu-right">
+                                            <div class="dropdown-menu-header">
+                                                <div class="dropdown-menu-header-inner bg-info">
+                                                    <div class="menu-header-image opacity-2" style="background-image: url('assets/images/dropdown-header/city3.jpg');"></div>
+                                                    <div class="menu-header-content text-left">
+                                                        <div class="widget-content p-0">
+                                                            <div class="widget-content-wrapper">
+                                                                <div class="widget-content-left mr-3">
+                                                                    <img width="42" class="rounded-circle" src="assets/images/avatars/14.jpg" alt="">
+                                                                </div>
+                                                                <div class="widget-content-left">
+                                                                    <div class="widget-heading">Abdul Hasan</div>
+                                                                    <div class="widget-subheading opacity-8">Siswa SMKN 1 Probolinggo</div>
+                                                                </div>
+                                                                <div class="widget-content-right mr-2">
+                                                                    <button class="btn-pill btn-shadow btn-shine btn btn-focus">Logout</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="scroll-area-xs" style="height: 150px;">
+                                                <div class="scrollbar-container ps">
+                                                    <ul class="nav flex-column">
+                                                        <li class="nav-item">
+                                                            <a href="javascript:void(0);" class="nav-link">Chat
+                                                                <div class="ml-auto badge badge-pill badge-info">8</div>
+                                                            </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="javascript:void(0);" class="nav-link">Status</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="javascript:void(0);" class="nav-link">Aktivitas</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item-divider nav-item">
+                                                </li>
+                                                <li class="nav-item-btn text-center nav-item">
+                                                    <button class="btn-wide btn btn-primary btn-sm"> Edit Profil </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="widget-content-left  ml-3 header-user-info">
+                                    <div class="widget-heading"> Abdul Hasan </div>
+                                    <div class="widget-subheading"> Admin Cowok </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <div class="ui-theme-settings">
+        </div>        
+        <div class="app-main">
+            <div class="app-sidebar sidebar-shadow">
+                <div class="app-header__logo">
+                    <div class="logo-src"></div>
+                    <div class="header__pane ml-auto">
+                        <div>
+                            <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-header__mobile-menu">
+                    <div>
+                        <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="app-header__menu">
+                    <span>
+                        <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                            <span class="btn-icon-wrapper">
+                                <i class="fa fa-ellipsis-v fa-w-6"></i>
+                            </span>
+                        </button>
+                    </span>
+                </div>    
+                <div class="scrollbar-sidebar">
+                    <div class="app-sidebar__inner">
+                        <ul class="vertical-nav-menu">
+                            <li  class="mm-active"      >
+                                <li>
+                                    <a href="beranda-dosis-setelah login.html" >
+                                        <i class="metismenu-icon pe-7s-graph"></i>Beranda
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="peristiwa1.html" >
+                                        <i class="metismenu-icon pe-7s-graph"></i>Donasi
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="kategori-dosis.html" >
+                                        <i class="metismenu-icon pe-7s-graph"></i>Kategori
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="konfirmasi.html" >
+                                        <i class="metismenu-icon pe-7s-graph"></i>Konfirmasi
+                                    </a>
+                                </li>
+                            </li>
+                            <li  
+                                   >
+                            </li>
+                            <li>
+                                <a href="widgets-chart-boxes.html" >
+                                    <i class="metismenu-icon pe-7s-graph"></i>Edit
+                                </a>
+                            </li>
+                            <li     
+                                  
+                                  
+                                  
+                                  >
+                                <a href="#">
+                                    <i class="metismenu-icon pe-7s-car"></i> Report
+                                    <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
+                                </a>
+                                <ul                
+                                      >
+                                    <li>
+                                        <a href="components-tabs.html" >
+                                            <i class="metismenu-icon"></i>Report User
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="components-accordions.html" >
+                                            <i class="metismenu-icon"></i>Report Postingan
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="metismenu-icon pe-7s-car"></i> History
+                                    <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="components-tabs.html" >
+                                            <i class="metismenu-icon"></i>History Pembayaran
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="components-accordions.html" >
+                                            <i class="metismenu-icon"></i>History Donasi
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="profil-admin.html" >
+                                    <i class="metismenu-icon pe-7s-graph"></i>Profil Admin
+                                </a>
+                            </li>
+                            <li>
+                                <a href="profil-user.html" >
+                                    <i class="metismenu-icon pe-7s-graph"></i>Profil User
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="metismenu-icon pe-7s-car"></i> Pengaturan
+                                    <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="components-tabs.html" >
+                                            <i class="metismenu-icon"></i>Edit profil
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="components-accordions.html" >
+                                            <i class="metismenu-icon"></i>Bantuan (Faq)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="components-accordions.html" >
+                                            <i class="metismenu-icon"></i>Email & Contact
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="components-accordions.html" >
+                                            <i class="metismenu-icon"></i>Tentang Kami
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="components-accordions.html" >
+                                            <i class="metismenu-icon"></i>Logout
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><div class="app-main__outer">
+                <div class="app-main__inner">
+                    <div class="tabs-animation">
+                        <div class="col-md-12">
+                            <div class="card-hover-shadow-2x mb-3 card">
+                                <div class="card-header">Edit Profil</div>
+                                <div class="content-right ">
+                                    <center><img width="100" class="rounded-circle" src="assets/images/avatars/14.jpg" alt=""></center>
+                                </div></br>
+                                <div class="d-block text-center ">
+                                    <button class="btn-shadow-primary btn btn-primary btn-lg">Ganti Foto Profil</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card-hover-shadow-2x mb-3 card">
+                                <div class="card-header">nama lengkap</div>
+                                <div class="">
+                                    <input name="text" placeholder="masukan nama lengkap anda...." type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card-hover-shadow-2x mb-3 card">
+                                <div class="card-header">jenis kelamin</div>
+                                <div class="">
+                                    <input name="text" placeholder="" type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card-hover-shadow-2x mb-3 card">
+                                <div class="card-header">provinsi</div>
+                                <div class="">
+                                    <input name="text" placeholder="" type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card-hover-shadow-2x mb-3 card">
+                                <div class="card-header">kabupaten</div>
+                                <div class="">
+                                    <input name="text" placeholder="" type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card-hover-shadow-2x mb-3 card">
+                                <div class="card-header">kecamatan</div>
+                                <div class="">
+                                    <input name="text" placeholder="" type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card-hover-shadow-2x mb-3 card">
+                                <div class="card-header">desa</div>
+                                <div class="">
+                                    <input name="text" placeholder="" type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card-hover-shadow-2x mb-3 card">
+                                <div class="card-header">alamat lengkap</div>
+                                <div class="">
+                                    <input name="text" placeholder="" type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card-hover-shadow-2x mb-3 card">
+                                <div class="card-header">kode pos</div>
+                                <div class="">
+                                    <input name="text" placeholder="" type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card-hover-shadow-2x mb-3 card">
+                                <div class="card-header">nomor wa</div>
+                                <div class="">
+                                    <input name="text" placeholder="" type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card-hover-shadow-2x mb-3 card">
+                                <div class="card-header">nomor telepon</div>
+                                <div class="">
+                                    <input name="text" placeholder="" type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card-hover-shadow-2x mb-3 card">
+                                <div class="card-header">instagram</div>
+                                <div class="">
+                                    <input name="text" placeholder="" type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card-hover-shadow-2x mb-3 card">
+                                <div class="card-header">facebook</div>
+                                <div class="">
+                                    <input name="text" placeholder="" type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card-hover-shadow-2x mb-3 card">
+                                <div class="card-header">twitter</div>
+                                <div class="">
+                                    <input name="text" placeholder="" type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-block text-center ">
+                            <button class="btn-shadow-primary btn btn-primary btn-lg">SIMPAN</button>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-6">
+                            </div>
+                            <div class="col-sm-12 col-lg-6">
+                            </div>
+                        </div>
+                        <div class="card no-shadow bg-transparent no-border rm-borders mb-3">
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="app-drawer-wrapper">
+        <div class="drawer-nav-btn">
+            <button type="button" class="hamburger hamburger--elastic is-active">
+                <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+            </button>
+        </div>
+        <div class="drawer-content-wrapper">
+            <div class="scrollbar-container">
+                <h3 class="drawer-heading">Pengaturan</h3>
+                <div class="drawer-section">
+                    <div class="app-sidebar__inner">
+                        <ul class="vertical-nav-menu">
+                            <li  class="mm-active"      >
+                                <li>
+                                    <a href="widgets-chart-boxes.html" >
+                                        <i class="metismenu-icon pe-7s-graph"></i>Bantuan (Faq)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="peristiwa.html" >
+                                        <i class="metismenu-icon pe-7s-graph"></i>Email & Contact
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="kategori.html" >
+                                        <i class="metismenu-icon pe-7s-graph"></i>Tentang Kami
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="kategori.html" >
+                                        <i class="metismenu-icon pe-7s-graph"></i>Logout
+                                    </a>
+                                </li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="app-drawer-overlay d-none animated fadeIn"></div><script type="text/javascript" src="assets/scripts/main.d810cf0ae7f39f28f336.js"></script></body>
+
+
+<!-- Mirrored from demo.dashboardpack.com/architectui-html-pro/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Feb 2021 08:01:40 GMT -->
+</html>
